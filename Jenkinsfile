@@ -9,7 +9,7 @@ pipeline {
 
 		stage('OWASP DependencyCheck') {
 			steps {
-				dependencyCheck additionalArguments: '--format HTML --format XML --nvdApiKey 7ad48849-c21a-49f4-9ddb-85151d39d039 --disableUpdate', odcInstallation: 'OWASP Dependency-Check Vulnerabilities'
+				dependencyCheck additionalArguments: '--format HTML --format XML --nvdApiKey 7ad48849-c21a-49f4-9ddb-85151d39d039 --noupdate', odcInstallation: 'OWASP Dependency-Check Vulnerabilities'
 			}
 		}
 	}	
