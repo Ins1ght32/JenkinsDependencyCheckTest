@@ -51,3 +51,5 @@ wheel==0.43.0
 wrapt==1.16.0
 WTForms==3.1.2
 jQuery==2.1.4
+Bootstrap==4.5.2
+popperjs==2.5.4
